@@ -1,6 +1,5 @@
 from django.db import models
 from store.models import Product, Variation
-
 # Create your models here.
 class Cart(models.Model):
     cart_id = models.CharField(max_length=250, blank=True)
